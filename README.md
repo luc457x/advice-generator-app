@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution](https://luc457x.github.io/advice-generator-app/)
 
 ## My process
 
@@ -40,8 +39,9 @@ Users should be able to:
 
 ### Continued development
 
-- I want to better place the itens inside the card so it will be "visible" smoother when pages update to fetch new advice.
-- I want to add a flipping card animation when fetching new advice.
+- Need better placement of the itens inside card so page updates will be "visible smoother" when fetching new advice.
+- Change ädvice-update" button so it just refresh the current advice instead of entire page.
+- Add a flipping card animation when fetching new advice.
 
 ## Author
 
