@@ -1,0 +1,85 @@
+body {
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--alt-background);
+    font-size: 18px;
+    text-align: center;
+    height: 30px;
+}
+
+header a {
+    color: var(--text-alt-color);
+    padding: 3.8%;
+    text-decoration: none;
+    color: #141414ce;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+main .card {
+    margin: 5vh;
+    width: 45vh;
+    height: 60vh;
+    border-radius: 10px 6vh;
+    background-color: var(--advice-card-color);
+    align-content:space-evenly;
+    border-style: outset;
+    font-size: 23px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+main .card img {
+    max-width: 30%;
+}
+
+main .card .margin {
+    margin: 5vh;
+}
+
+main .card .id {
+    font-size: 20px;
+}
+
+main .advice-update {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+main .advice-update:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
+footer {
+    background-color: var(--alt-background);
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+}
+
+footer a {
+    color: var(--text-alt-color);
+}
+
+@media(max-width: 768px) {
+    main div p {
+        font-size: 21px;
+    }
+}

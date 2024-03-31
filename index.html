@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+
+</head>
+
+<body>
+  <header>
+    <a href="https://www.linkedin.com/in/lucas-de-paula-teixeira-24148a177/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/luc457x" target="_blank">GitHub</a>
+    <a href="https://www.instagram.com/1uc457x/" target="_blank">Instagram</a>
+  </header>
+  <main>
+    <div class="card">
+      <div class="id margin">
+        <img src="./src/images/icon.png" alt="logo">
+        <p>Advice</p>
+        <p ID="idDiv"></p>
+      </div>
+      <p ID="adviceDiv" class="margin"></p>
+    </div>
+    <picture>
+      <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+      <source srcset="./src/images/pattern-divider-desktop.svg">
+      <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
+    </picture>
+    <button class="advice-update">
+      <a href="."><img src="./src/images/icon-dice.svg" alt="Dice icon"></a>
+    </button>
+  </main>
+  <footer>
+    <div>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/luc457x" target="_blank">Luc45</a>.
+    </div>
+  </footer>
+  <script src="./js/advice_api.js"></script>
+</body>
+
+</html>
