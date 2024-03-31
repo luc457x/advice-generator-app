@@ -2,7 +2,6 @@ body {
     background-color: var(--background-color);
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    background-color: var(--background-color);
 }
 
 header {
@@ -13,10 +12,9 @@ header {
 }
 
 header a {
-    color: var(--text-alt-color);
     padding: 3.8%;
     text-decoration: none;
-    color: #141414ce;
+    color: var(--text-menu-color);
 }
 
 main {
